@@ -1,5 +1,6 @@
 package com.example.kristoffer.chatbois_app;
 
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -68,6 +69,15 @@ public class ChatRoomsAdapter extends RecyclerView.Adapter<ChatRoomsAdapter.View
 
         holder.txtFooter.setText("Footer: " + name);
     }
+
+    /*
+    @Override
+    public void changeActivity(View view) {
+        Intent intent = new Intent(this, ChatActivity.class);
+
+    }*/
+
+
 
     // Return the size of your dataset
     @Override
