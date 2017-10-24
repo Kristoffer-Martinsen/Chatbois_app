@@ -15,7 +15,6 @@ public class Conversation {
     public void setVersion(String version) {
         this.version = version;
     }
-
     public String getId() {
         return id;
     }

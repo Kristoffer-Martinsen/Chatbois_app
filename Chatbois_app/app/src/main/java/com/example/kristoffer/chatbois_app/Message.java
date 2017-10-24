@@ -4,7 +4,7 @@ package com.example.kristoffer.chatbois_app;
  * Created by Kristoffer on 22.10.2017.
  */
 
-public class Messages {
+public class Message {
     String name;
     String text;
     String timeStamp;
