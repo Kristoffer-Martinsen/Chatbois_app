@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ConversationService {
 
-    private static final String URL = "http://158.38.72.94:8080/Chatbois/api/messages/conversation";
+    private static final String URL = "http://158.38.72.99:8080/Chatbois/api/messages/conversation";
     private static final Type LIST_TYPE = new TypeToken<List<Conversation>>(){}.getType();
 
     private HttpService httpService;

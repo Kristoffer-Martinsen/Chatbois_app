@@ -5,16 +5,21 @@ package com.example.kristoffer.chatbois_app;
  */
 
 public class Message {
-    String name;
+    String user;
     String text;
     String timeStamp;
 
-    public String getName() {
-        return name;
+    public Message(String user, String text) {
+        this.user = user;
+        this.text = text;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 
     public String getText() {
